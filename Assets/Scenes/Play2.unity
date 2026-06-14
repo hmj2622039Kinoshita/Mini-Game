@@ -300,6 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84a370e4a1301084ea67441f5a5c55b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Apple_Play2
+  answer: 1
   Apple:
   - {fileID: 5688493861868174373, guid: 82327163d264b814fa9ae8fbc89f6f29, type: 3}
   - {fileID: 6472173681348440863, guid: d774932910c74fc49b4c4ed73f433129, type: 3}
@@ -343,6 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84a370e4a1301084ea67441f5a5c55b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Apple_Play2
+  answer: 2
   Apple:
   - {fileID: 5688493861868174373, guid: 82327163d264b814fa9ae8fbc89f6f29, type: 3}
   - {fileID: 6472173681348440863, guid: d774932910c74fc49b4c4ed73f433129, type: 3}
