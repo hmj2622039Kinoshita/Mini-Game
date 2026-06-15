@@ -449,8 +449,9 @@ GameObject:
   - component: {fileID: 1579233521}
   - component: {fileID: 1579233520}
   - component: {fileID: 1579233519}
+  - component: {fileID: 1579233522}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -588,6 +589,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579233517}
   m_CullTransparentMesh: 1
+--- !u!114 &1579233522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579233517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d2cd1fe055d8ac4ca3086bf0b912d3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextColor
+  text: {fileID: 1579233520}
+  blink: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
