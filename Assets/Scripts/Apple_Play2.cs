@@ -10,6 +10,7 @@ public class Apple_Play2 : MonoBehaviour
     [SerializeField] float Y = 6.3f;
     float X;
     int number;
+    
 
     private void Start()
     {
@@ -18,6 +19,8 @@ public class Apple_Play2 : MonoBehaviour
         X = Random.Range(rangeA.position.x, rangeB.position.x);
 
         GameObject apple = Instantiate(Apple[number], new Vector2(X, Y), transform.rotation);
+       
+        Debug.Log(apple); // ƒ‰ƒ“ƒ_ƒ€¶¬‚ÌƒŠƒ“ƒS‚Ìî•ñapple
     }
 
 }

@@ -6,70 +6,70 @@ using System.Threading;
 using Unity.VisualScripting;
 public class SelectButton_Se : MonoBehaviour
 {
-    [SerializeField]Image Select1;
-    [SerializeField]Image Select2;
-    [SerializeField] Sprite[] Apple;
-    Image img;
-    int count = 0;
-
-    public void SelectButon1()
+    public void SelectButton1()
     {
-        img = Select1;
-    }
-    public void SelectButon2()
-    {
-        img = Select2;
-    }
-   
+        switch (transform.name)
+        {
+            case "ButtonAlien":
+                .sprite = Resources.Load<Sprite>("Image/apple1");
+                break;
+        }
 
-        public void ButtonAlien()
-        {
-            count = 1;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
-        public void ButtonEarth()
-        {
-            count = 2;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
-        public void ButtonGolden()
-        {
-            count = 3;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
-        public void ButtonIce()
-        {
-            count = 4;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
-        public void ButtonIron()
-        {
-            count = 5;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
-        public void ButtonMirror()
-        {
-            count = 6;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
-        public void ButtonRainbow()
-        {
-            count = 7;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
-        public void ButtonRed()
-        {
-            count = 8;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
-        public void ButtonSilver()
-        {
-            count = 9;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
-        public void ButtonStone()
-        {
-            count = 10;
-            img.sprite = Resources.Load<Sprite>("Image/apple" + count.ToString());
-        }
+    }
+
+    //[SerializeField]Image Select1;
+    //[SerializeField]Image Select2;
+    //[SerializeField] Sprite[] Apple;
+    //Image img;
+
+    //public void SelectButon1()
+    //{
+    //    img = Select1;
+    //}
+    //public void SelectButon2()
+    //{
+    //    img = Select2;
+    //}
+
+
+    //    public void ButtonAlien()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple1");
+    //    }
+    //    public void ButtonEarth()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple2");
+    //    }
+    //    public void ButtonGolden()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple3");
+    //    }
+    //    public void ButtonIce()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple4");
+    //    }
+    //    public void ButtonIron()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple5");
+    //    }
+    //    public void ButtonMirror()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple6");
+    //    }
+    //    public void ButtonRainbow()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple7");
+    //    }
+    //    public void ButtonRed()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple8");
+    //    }
+    //    public void ButtonSilver()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple9");
+    //    }
+    //    public void ButtonStone()
+    //    {
+    //        img.sprite = Resources.Load<Sprite>("Image/apple10");
+    //    }
 }
