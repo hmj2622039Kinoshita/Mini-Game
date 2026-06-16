@@ -1646,7 +1646,6 @@ RectTransform:
   - {fileID: 75764090}
   - {fileID: 112549122}
   - {fileID: 834486897}
-  - {fileID: 1337677832}
   m_Father: {fileID: 1858484680}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1838,7 +1837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: e4466d31765c941108c4359bf4a8c8be, type: 3}
-  appleeNum: 2
+  appleNum: 2
 --- !u!1 &615948982
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,7 +2134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: 933db837f4278494e98c1a456832f50b, type: 3}
-  appleeNum: 4
+  appleNum: 4
 --- !u!1 &834486896
 GameObject:
   m_ObjectHideFlags: 0
@@ -2282,7 +2281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: a30d80aa2cdc2494fa4635c6b14380c4, type: 3}
-  appleeNum: 8
+  appleNum: 8
 --- !u!1 &884395623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2803,7 +2802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: 639c1b483da7f4af7927b0f94a9e95b6, type: 3}
-  appleeNum: 0
+  appleNum: 0
 --- !u!1 &1067233559
 GameObject:
   m_ObjectHideFlags: 0
@@ -2894,7 +2893,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3087,7 +3086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: 6aa4c7e3a492e4bee8d8cefd7287bb15, type: 3}
-  appleeNum: 9
+  appleNum: 9
 --- !u!1 &1225357137
 GameObject:
   m_ObjectHideFlags: 0
@@ -3462,7 +3461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: 2aac83a786c684599bf1da5906bb2790, type: 3}
-  appleeNum: 1
+  appleNum: 1
 --- !u!1 &1337677831
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,11 +3495,11 @@ RectTransform:
   - {fileID: 371583658}
   - {fileID: 623784213}
   - {fileID: 1817158972}
-  m_Father: {fileID: 589559884}
+  m_Father: {fileID: 1858484680}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 97.5, y: -146.5}
+  m_AnchoredPosition: {x: 1005, y: 199}
   m_SizeDelta: {x: 195, y: 195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1337677833
@@ -3765,7 +3764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: 114e38a1808b245319ed1959896edbc0, type: 3}
-  appleeNum: 5
+  appleNum: 5
 --- !u!1 &1467986313
 GameObject:
   m_ObjectHideFlags: 0
@@ -4137,7 +4136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: 67787a13642034f57b993424345efd2b, type: 3}
-  appleeNum: 6
+  appleNum: 6
 --- !u!1 &1607663215
 GameObject:
   m_ObjectHideFlags: 0
@@ -4662,7 +4661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: 2e9642451312046d48636daea9279da6, type: 3}
-  appleeNum: 7
+  appleNum: 7
 --- !u!1 &1833551068
 GameObject:
   m_ObjectHideFlags: 0
@@ -4842,6 +4841,7 @@ RectTransform:
   - {fileID: 2143954021}
   - {fileID: 1998705995}
   - {fileID: 96128974}
+  - {fileID: 1337677832}
   - {fileID: 589559884}
   - {fileID: 1385079260}
   - {fileID: 950964428}
@@ -5153,7 +5153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SelectApple
   Apple: {fileID: 21300000, guid: 3602fbfa7cb3444088dc1b3b72a96457, type: 3}
-  appleeNum: 3
+  appleNum: 3
 --- !u!1 &2143954020
 GameObject:
   m_ObjectHideFlags: 0

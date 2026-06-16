@@ -3,7 +3,7 @@ using UnityEngine;
 public class SelectApple : MonoBehaviour
 {
     public Sprite Apple;
-    public int appleeNum;
+    public int appleNum;
 
     public void ChooseApple()
     {
@@ -14,11 +14,11 @@ public class SelectApple : MonoBehaviour
 
         if(SelectButton_Se.SelectButton.name =="SelectButton1")
         {
-            PlayerAnswer.select1 = appleeNum;
+            PlayerAnswer.select1 = appleNum;
         }
         else
         {
-            PlayerAnswer.select2 = appleeNum;
+            PlayerAnswer.select2 = appleNum;
         }
     }
 }

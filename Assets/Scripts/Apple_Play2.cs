@@ -1,6 +1,4 @@
 using UnityEngine;
-using System.Collections;
-using System.Globalization;
 
 public class Apple_Play2 : MonoBehaviour
 {
@@ -29,7 +27,6 @@ public class Apple_Play2 : MonoBehaviour
 
         GameObject apple = Instantiate(Apple[number], new Vector2(X, Y), transform.rotation);
        
-        Debug.Log(apple); // ƒ‰ƒ“ƒ_ƒ€¶¬‚ÌƒŠƒ“ƒS‚Ìî•ñapple
     }
 
 }

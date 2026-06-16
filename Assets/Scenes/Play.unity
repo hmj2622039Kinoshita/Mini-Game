@@ -466,7 +466,7 @@ RectTransform:
   m_GameObject: {fileID: 1579233517}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.27, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 300922155}
@@ -511,8 +511,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "  \u899A\u3048\u308D\uFF01"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4f1a4790716711a4489d1269e196fbaa, type: 2}
-  m_sharedMaterial: {fileID: 6942790439987587315, guid: 4f1a4790716711a4489d1269e196fbaa, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: fc316de3364f09f4aa1447af7f0821a7, type: 2}
+  m_sharedMaterial: {fileID: 150030753840175094, guid: fc316de3364f09f4aa1447af7f0821a7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -536,8 +536,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 350
-  m_fontSizeBase: 350
+  m_fontSize: 293.48
+  m_fontSizeBase: 293.48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: -1.7
   m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
